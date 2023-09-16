@@ -7,7 +7,11 @@ const Calculator = () => {
     const [result, setResult] = useState("");
 
     function isValidate() {
-        if (isNaN(num1)) {
+        if (num1 === "" || num2 === "") {
+            setError("Please enter a number");
+            setResult("");
+            return false;
+        } else if (isNaN(num1)) {
             setError("Please enter a valid num1");
             setResult("");
             return false;
@@ -55,12 +59,12 @@ const Calculator = () => {
                 <input
                     type="text"
                     placeholder="Num 1"
-                    onChange={(e) => setNum1(e.target.value)}
+                    onChange={(e) => setNum1(e.target.value.trim())}
                 />
                 <input
                     type="text"
                     placeholder="Num 2"
-                    onChange={(e) => setNum2(e.target.value)}
+                    onChange={(e) => setNum2(e.target.value.trim())}
                 />
 
                 <div className="operators">
