@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/f4-repeat-project1/static/css/main.1edb419d.css",
+    "main.js": "/f4-repeat-project1/static/js/main.ce36f78a.js",
+    "index.html": "/f4-repeat-project1/index.html",
+    "main.1edb419d.css.map": "/f4-repeat-project1/static/css/main.1edb419d.css.map",
+    "main.ce36f78a.js.map": "/f4-repeat-project1/static/js/main.ce36f78a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1edb419d.css",
+    "static/js/main.ce36f78a.js"
+  ]
+}
