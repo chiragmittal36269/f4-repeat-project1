@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: cursive; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: yellow; */
+    border-radius: 20px;
+    padding: 50px;
+    border: none;
+    box-shadow: -30px 20px 100px 10px #fb184e78, 30px -20px 100px 10px #0057ff78;
+}
+
+.calculator-head {
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+input {
+    border: 2px solid #2b2b2b;
+    color: #2b2b2b;
+    /* text-align: center; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 15px;
+    width: 285px;
+}
+
+input::placeholder {
+    color: #2b2b2b;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.operators {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operators button {
+    width: 20%;
+    height: 40px;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.error {
+    color: #fb184e;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.msg1 {
+    color: #2b2b2b;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.success {
+    color: #0057ff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.msg2 {
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
