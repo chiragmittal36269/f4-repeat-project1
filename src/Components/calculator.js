@@ -19,6 +19,9 @@ const Calculator = () => {
             setError("please enter a valid num2");
             setResult("");
             return false;
+        } else if(num2 ===0){
+            setError("num2 can't be zero");
+            setResult("");
         } else {
             setError("");
             return true;
